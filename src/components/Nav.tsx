@@ -1,12 +1,14 @@
 // Nav.tsx
+import Image from "next/image";
+import logo from '@/assets/logo.png'
 
 export default function Nav() {
     return (
-        <nav className="bg-none p-4">
+        <nav className="bg-transparent p-4 absolute w-full z-20">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center">
-                    <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
-                    <span className="text-white font-bold text-lg">Space</span>
+                    <Image src={logo} alt="Logo" width={32} height={32} />
+                    <span className="text-white font-bold text-lg">SkySat</span>
                 </div>
                 <div className="hidden md:flex space-x-4">
                     <a className="text-white">Sobre</a>
