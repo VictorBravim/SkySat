@@ -2,7 +2,7 @@
 
 export default function Hero() {
     return (
-        <div className="relative h-screen flex items-center justify-left">
+        <div className="block h-screen flex items-center justify-center">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/bg.jpg')", }}></div>
             <div className="relative z-10 text-white w-1/3">
                 <div className="text-left">
@@ -13,6 +13,7 @@ export default function Hero() {
                     Mais
                 </button>
             </div>
+            <div className="w-1/2"></div>
         </div>
     );
 }

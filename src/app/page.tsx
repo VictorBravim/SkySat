@@ -2,6 +2,7 @@
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero';
 import Card from '@/components/Card'
+import Mission from '@/components/Mission';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Card />
+      <Mission />
     </main>
   );
 }
