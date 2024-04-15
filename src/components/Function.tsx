@@ -8,12 +8,13 @@ export default function Function() {
                 <Image src="/mission-image.jpg" alt="Imagem de Missão" width={500} height={300} />
             </div>
             <div className="w-1/2 pr-8">
-                <h2 className="text-2xl font-bold mb-4">Nossa Missão</h2>
+                <h2 className="text-2xl text-white font-bold mb-4">SATÉLITE</h2>
                 <p className="text-gray-600 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                    fringilla magna et aliquam convallis. Vestibulum vitae quam nec mi
-                    convallis efficitur sed ut ipsum.
+                Fornece luz à noite. Afeta o equilíbrio da água do mar. Transmite sinais de televisão, celulares e internet. Transmite e recebe sinais de comunicação.
                 </p>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    View All
+                </button>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Saiba Mais
                 </button>
