@@ -17,7 +17,7 @@ export default function Nav() {
                     <a className="text-white text-base md:text-lg">Satellite</a>
                 </div>
                 <button className="bg-none border border-white text-white text-base md:text-lg font-bold py-2 px-4 mt-4 md:mt-0 mr-0 lg:mr-8">
-                    Botão
+                    Login
                 </button>
             </div>
         </nav>
