@@ -1,11 +1,12 @@
 // Function.tsx
 import Image from "next/image";
+import satelite2 from '@/assets/2.jpg'
 
 export default function Function() {
     return (
         <div className="container mx-auto py-8 flex items-center justify-between">
             <div className="w-1/2 pl-8">
-                <Image src="/mission-image.jpg" alt="Imagem de Missão" width={500} height={300} />
+                <Image src={satelite2} alt="Imagem de Missão" width={500} height={300} />
             </div>
             <div className="w-1/2 pr-8">
                 <h2 className="text-2xl text-white font-bold mb-4">SATÉLITE</h2>

@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-800 text-white p-8">
+        <footer className="bg-black text-white p-8">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center">
                     <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
