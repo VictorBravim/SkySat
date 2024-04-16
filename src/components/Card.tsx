@@ -1,8 +1,8 @@
 // Card.tsx
 import Image from "next/image";
-import atom from '@/assets/atom.png'
-import satelite from '@/assets/satelite.png'
-import terra from '@/assets/terra.png'
+import atom from '@/assets/atom.webp'
+import satelite from '@/assets/satelite.webp'
+import terra from '@/assets/terra.webp'
 
 export default function Card() {
     return (

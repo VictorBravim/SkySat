@@ -1,6 +1,6 @@
 // Nav.tsx
 import Image from "next/image";
-import logo from '@/assets/logo.png'
+import logo from '@/assets/Logo.webp'
 
 export default function Nav() {
     return (

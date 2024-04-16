@@ -1,6 +1,6 @@
 // Function.tsx
 import Image from "next/image";
-import satelite2 from '@/assets/2.jpg'
+import satelite2 from '@/assets/satelite2.webp'
 
 export default function Function() {
     return (

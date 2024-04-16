@@ -1,6 +1,6 @@
 // Mission.tsx
 import Image from "next/image";
-import satelite1 from '@/assets/1.jpg'
+import satelite1 from '@/assets/satelite1.webp'
 
 export default function Mission() {
     return (
