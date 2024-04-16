@@ -1,7 +1,7 @@
 // Footer.tsx
 import Image from "next/image";
 import logo from '@/assets/Logo.webp'
-
+ 
 export default function Footer() {
     return (
         <footer className="bg-black text-white p-8">
