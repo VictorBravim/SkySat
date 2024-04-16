@@ -9,3 +9,16 @@ body {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+.mt-m {
+  margin-top: 350px !important;
+}
+
+@media screen and (max-width: 700px) {
+  .mt-s{
+    margin-top: 1210px !important;
+  }
+  .mt-m{
+    margin-top: 900px !important;
+  }
+}
