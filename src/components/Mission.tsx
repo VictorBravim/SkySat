@@ -4,23 +4,21 @@ import satelite1 from '@/assets/1.jpg'
 
 export default function Mission() {
     return (
-        <div className="container mx-auto py-8">
-            <div className="w-full mb-8">
-                <Image src={satelite1} alt="Imagem de Missão" layout="responsive" width={1920} height={1080} />
+        <div className="container mx-auto mt-64 mb-8 flex items-center justify-between">
+            <div className="w-1/2 pr-8">
+                <h2 className="text-2xl text-white font-bold mb-4">SATÉLITE</h2>
+                <p className="text-gray-600 mb-4">
+                Fornece luz à noite. Afeta o equilíbrio da água do mar. Transmite sinais de televisão, celulares e internet. Transmite e recebe sinais de comunicação.
+                </p>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    View All
+                </button>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Saiba Mais
+                </button>
             </div>
-            <div className="flex items-center justify-between">
-                <div className="w-1/2 pr-8">
-                    <h2 className="text-2xl text-white font-bold mb-4">RAPIDSCAN</h2>
-                    <p className="text-gray-600 mb-4">
-                        Melhora a previsão do tempo na Terra, fornece a calibração cruzada para todos os satélites internacionais que monitoram os ventos oceânicos e aprimora as estimativas de como os ventos oceânicos mudam ao longo do dia, em todo o mundo.
-                    </p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Saiba Mais
-                    </button>
-                </div>
-                <div className="w-1/2 pl-8">
-                    <Image src={satelite1} alt="Imagem de Missão" width={500} height={300} />
-                </div>
+            <div className="w-1/2 pl-8">
+                <Image src={satelite1} alt="Imagem de Missão" width={500} height={300} />
             </div>
         </div>
     );

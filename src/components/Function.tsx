@@ -4,7 +4,7 @@ import satelite2 from '@/assets/2.jpg'
 
 export default function Function() {
     return (
-        <div className="container mx-auto py-8 flex items-center justify-between">
+        <div className="container mx-auto py-32 mb-16 flex items-center justify-between">
             <div className="w-1/2 pl-8">
                 <Image src={satelite2} alt="Imagem de Missão" width={500} height={300} />
             </div>
