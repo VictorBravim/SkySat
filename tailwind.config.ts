@@ -15,9 +15,7 @@ const config: Config = {
       },
       colors: {
         'blue-custom': '#0B1926',
-      },
-      fontFamily: {
-        custom: ['Orbitron', 'sans-serif'],
+        'blue-custom-2': '#487bab',
       },
     },
   },
