@@ -18,7 +18,7 @@ Este repositório contém os componentes React para o projeto SkySat, uma aplica
 1. Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/SkySat.git
+git clone https://github.com/VictorBravim/SkySat.git
 ```
    
 2. Instale as dependências do projeto:
