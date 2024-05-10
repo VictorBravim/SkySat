@@ -1,38 +1,45 @@
-# SkySat
+# 🌙 SkySat
 
-![image 1](https://github.com/VictorBravim/SkySat/assets/122113588/21e7cae7-8c12-48cc-ac05-285f266017d1)
+![914shots_so](https://github.com/VictorBravim/SkySat/assets/122113588/4d078b43-05a4-472f-bd63-f2946a5b032a)
 
-Este repositório contém os componentes React para o projeto SkySat, uma aplicação web que fornece informações sobre satélites e órbitas terrestres.
+## 🚀 Overview
 
-## <code>Componentes</code>
+This repository contains the React components for the SkySat project, a web application that provides information about satellites and Earth orbits.
 
-1. **Nav** (`Nav.tsx`): Componente de barra de navegação contendo o logo e links de navegação.
-2. **Hero** (`Hero.tsx`): Componente do banner principal que fornece uma visão geral do projeto SkySat.
-3. **Card** (`Card.tsx`): Componente de cartões informativos que exibe informações sobre diferentes órbitas e satélites.
-4. **Mission** (`Mission.tsx`): Componente que descreve a missão do projeto SkySat e apresenta uma imagem relacionada.
-5. **Function** (`Function.tsx`): Componente que descreve as funcionalidades do projeto SkySat e apresenta uma imagem relacionada.  
-6. **Footer** (`Footer.tsx`): Componente de rodapé contendo links de navegação adicionais e informações de direitos autorais.
+## 📋 Requirements
 
-## <code>Instalação</code>
+- Node.js
+- npm ou yarn
 
-1. Clone este repositório:
+## 🔧 Installation
+
+1. Clone this repository:
 
 ```
 git clone https://github.com/VictorBravim/SkySat.git
 ```
+
+2. Navigate to the project directory:
    
-2. Instale as dependências do projeto:
+```
+cd SkySat
+```
+   
+3. Install dependencies:
 
 ```
 npm install
 ```
 
-4. Execute o projeto localmente:
-   
-```
-npm run dev
-```
+## 🛠️ Project Structure
 
-## <code>Licença</code>
+- Nav.tsx: Navigation bar component containing the logo and navigation links.
+- Hero.tsx: Main banner component that provides an overview of the SkySat project.
+- Card.tsx: Information card component that displays information about different orbits and satellites.
+- Mission.tsx: Component that describes the mission of the SkySat project and presents a related image.
+- Function.tsx: Component that describes the functionalities of the SkySat project and presents a related image.
+- Footer.tsx: Footer component containing additional navigation links and copyright information.
 
-Este projeto é licenciado sob a Licença MIT.
+## 📄 License
+
+- This project is licensed under the [MIT License](LICENSE).
