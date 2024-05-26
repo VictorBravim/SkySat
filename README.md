@@ -1,6 +1,7 @@
 # 🌙 SkySat
 
-![914shots_so](https://github.com/VictorBravim/SkySat/assets/122113588/4d078b43-05a4-472f-bd63-f2946a5b032a)
+![image 3](https://github.com/VictorBravim/SkySat/assets/122113588/2ba98353-ee0f-42db-b31b-60e92cf7403f)
+
 
 ## 🚀 Overview
 
